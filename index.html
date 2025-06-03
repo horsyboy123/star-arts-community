@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Arts Community</title>
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
         header {
             width: 100%;
             display: flex;
@@ -14,6 +19,25 @@
         header img {
             margin: 0 auto;
         }
+
+        main {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        section {}
+
+        nav {
+
+            margin-left: auto;
+            flex-direction: column;
+            display: flex;
+        }
+
+        nav a {
+            border: 4mm ridge rgba(211, 220, 50, 0.6);
+        }
     </style>
 </head>
 
@@ -21,10 +45,18 @@
     <header>
         <img class="fit-picture" src="./Star.jpg" alt="Two Hands Shaking To Represent The Community" />
     </header>
-    <h1>Star Arts Communty</h1>
-    <p>Star Arts is a small group of kids who want to share their art with the community. </p>
-    <a href="/art.html">Art</a>
-    <a href="/astronomy.html">Astronomy</a><nav><a href="/art.html">Art</a><a href="/astronomy.html">Astronomy</a></nav>
+
+    <main>
+        <section>
+            <h1>Star Arts Communty</h1>
+            <p>Star Arts is a small group of kids who want to share their art with the community. </p>
+        </section>
+
+        <nav>
+            <a href="/art.html">Art</a>
+            <a href="/astronomy.html">Astronomy</a>
+        </nav>
+    </main>
 </body>
 
 </html>
